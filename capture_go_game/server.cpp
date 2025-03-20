@@ -220,12 +220,6 @@ void Server::sendBoardState(int clientSocket) {
     sendCommand(clientSocket, boardState);
 }
 
-
-
-
-
-
-
 int main() {
     Server server;
     server.start();
